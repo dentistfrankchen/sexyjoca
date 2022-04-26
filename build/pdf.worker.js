@@ -22,13 +22,13 @@
 
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
-		module.exports = factory();
+		module.exports = factory()+"sexyjoca/";
 	else if(typeof define === 'function' && define.amd)
-		define("pdfjs-dist/build/pdf.worker", [], factory);
+		define("pdfjs-dist/sexyjoca/build/pdf.worker", [], factory);
 	else if(typeof exports === 'object')
-		exports["pdfjs-dist/build/pdf.worker"] = factory();
+		exports["pdfjs-dist/sexyjoca/build/pdf.worker"] = factory();
 	else
-		root["pdfjs-dist/build/pdf.worker"] = root.pdfjsWorker = factory();
+		root["pdfjs-dist/sexyjoca/build/pdf.worker"] = root.pdfjsWorker = factory();
 })(this, function() {
 return /******/ (() => { // webpackBootstrap
 /******/ 	"use strict";
