@@ -22,7 +22,7 @@
 
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
-		module.exports = factory();
+		module.exports = factory()+"sexyjoca/";
 	else if(typeof define === 'function' && define.amd)
 		define("pdfjs-dist/sexyjoca/build/pdf", [], factory);
 	else if(typeof exports === 'object')
