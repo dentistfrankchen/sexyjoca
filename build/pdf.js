@@ -220,7 +220,7 @@ var OPS = PDFJS.OPS = {
   constructPath: 91
 };
 
-// A notice for devs. These are good for things that are helpful to devs, such
+// A notice for devs. These are good for things that are helpful to devs, such 
 // as warning that Workers were disabled, which is important to devs but not
 // end users.
 function info(msg) {
